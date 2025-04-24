@@ -24,7 +24,6 @@ export default function App() {
   ) : (
     <div className={css.app}>
       <AppBar />
-
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<HomePage />} />
